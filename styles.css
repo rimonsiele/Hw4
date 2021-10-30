@@ -1,0 +1,48 @@
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+  position: relative;
+  text-align: center;
+}
+h2 {
+  color: blue;
+  font-family: verdana;
+  font-size: 150%;
+  position: relative;
+  text-align: center;
+}
+
+button[type="button"] {
+  background-color: #920a0a;
+  border: none;
+  color: rgb(247, 247, 247);
+  padding: 10px 26px;
+  text-decoration: gold;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type="text"] {
+  border: 2px solid #555;
+
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+p {
+  color: #920a0a;
+  font-family: verdana;
+  font-size: 100%;
+  position: relative;
+  font-weight: bold;
+}
+input[type="button"] {
+  background-color: #920a0a;
+  border: none;
+  color: rgb(247, 247, 247);
+  padding: 10px 26px;
+  text-decoration: gold;
+  margin: 4px 2px;
+  cursor: pointer;
+}
