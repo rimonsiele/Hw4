@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Task 1</title>
+    <meta charset="utf-8"/>	
+	<link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+
+	  <h1>HOMEWORK</h1>
+	  <h2>Encryption </h2>
+  <!-- (C) REGISTRATION FORM -->
+<form id='form'>
+    <input type="text" id="user-text"/>
+    <!--<input type="hidden" id="user-real-text" name="text"/>-->
+    <button class= "button" onclick="crypt()" type="button">submit</button>
+    <p>AES Encrypted :
+        <span id = "AES-result"></span>
+        </p>
+        <p>SHA1 Encrypted :
+            <span id = "sha1-result"></span>
+            </p>
+            <p>SHA224 Encrypted :
+                <span id = "sha224-result"></span>
+                </p>
+                <p>SHA256 Encrypted :
+                    <span id = "sha256-result"></span>
+                    </p>
+                   
+	
+                    <h2>Decimal to binary</h2>
+                    
+                        <input type="button" onClick="convertToBinary()" Value="Click Here to convert" />
+                        <p>Binary :
+                          <span id = "binary-result"></span>
+                          </p>
+                    
+                    <h2>Binary to decimal</h2>
+                    
+                        <input type="button" onClick="convertToDecimal()" Value="Click Here to convert" />
+                        <p>Decimal :
+                          <span id = "Decimal-result"></span>
+                          </p>
+</form>
+<!-- (A) LOAD CRYPTO JS LIBRARY -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+<script src="js/script.js"></script>
+
+  </body>
+  </html>
